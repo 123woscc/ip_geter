@@ -26,6 +26,5 @@ def get_ip():
     except:
         return jsonify(msg='error')
 
-
 if __name__ == '__main__':
     app.run()
